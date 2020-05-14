@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DMV App Prototype V - 1.0</string>
+    <string name="location_and_waittime">Location and Waittime</string>
+    <string name="learner_s_test_practice">Learner\'s Test Practice</string>
+    <string name="online_services">Online Services</string>
+</resources>

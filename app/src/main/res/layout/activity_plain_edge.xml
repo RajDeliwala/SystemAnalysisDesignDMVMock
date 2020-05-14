@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_plain_edge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.raj.systemanalysisdesigndmvmockscreen.plainEdge">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/plain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView2" />
+
+    <Button
+        android:text="Queue in line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:id="@+id/queButton" />
+
+    <TextView
+        android:text="Bethpage DMV Office"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="Address: 4031 Hempstead Turnpike, Bethpage, NY11714\r\nHours: Open today · 10AM–6PM\r\nPhone: (718) 477-4820\r\n
+        Check the office hours information above before planning your trip. Some offices offer services at specific times that may be different than the normal hours listed. No enforcement means the office does not process surrenders of suspended or revoked licenses or registrations, or issue conditional or restricted licenses."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Serving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/servingButton"
+        android:layout_below="@+id/queButton"
+        android:layout_toEndOf="@+id/imageView2" />
+</RelativeLayout>
